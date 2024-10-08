@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to TigerTix</h1>
+    <p>To get started, choose an option:</p>
+    <p>
+        <a asp-controller="App" asp-action="Login" class="btn btn-primary">Log In</a>
+        <a asp-controller="Event" asp-action="UpcomingEvents" class="btn btn-primary">View Upcoming Events</a>
+        <a asp-controller="Event" asp-action="Create" class="btn btn-primary">Create New Event</a>
+        <a asp-controller="Cart" asp-action="ViewCart" class="btn btn-primary">View Cart</a>
+        <a asp-controller="Payment" asp-action="AddMethod" class="btn btn-primary">Add a Payment Method</a>
+        <a asp-controller="App" asp-action="FAQ" class="btn btn-secondary">FAQ</a>
+    </p>
+</div>

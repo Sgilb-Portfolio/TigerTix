@@ -1,0 +1,15 @@
+﻿@model TigerTix.Web.Models.Event
+
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+
+<div class="event-details">
+    <p><strong>Sport:</strong> @Model.Sport</p>
+    <p><strong>Opponent:</strong> @Model.Opponent</p>
+    <p><strong>Date:</strong> @Model.Date.ToString("dd MMMM yyyy")</p>
+    <p><strong>Location:</strong> @Model.Location</p>
+</div>
+
+<a href="@Url.Action("Index", "Events")" class="btn btn-default">Back to Events List</a>

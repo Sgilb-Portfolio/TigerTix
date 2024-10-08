@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "FAQ";
+}
+
+<h2>FAQ</h2>
+
+
+<u1>
+    <li>
+        <strong> What is TigerTix?</strong>
+        <p> TigerTix is a platform for purchasing and managing tickets for Clemson events.</p>
+    </li>
+    <li>
+        <strong> How do I purchase a ticket?</strong>
+        <p> You can purchase tickets by navigating to the View Upcoming Events page and selecting an event you want to attend.</p>
+    </li>
+    <li> 
+        <strong> How do I request a refund?</strong>
+        <p> Tickets cannot be refunded.</p>
+    </li>
+    <li> 
+        <strong> Does TigerTix offer any special promotions or deals?</strong>
+        <p> Yes! TigerTix offers student discounts.</p>
+    </li>
+    <li>
+        <strong> Who do I contact for futher help or more information?</strong>
+        <p> Contact us at CustomerSupport@fake.com</p>
+    </li>
+</u1>
+
+<button id="homeButton">Go Home</button>
+
+<script>
+    document.getElementById('homeButton').addEventListener('click', function () {
+        window.location.href = '/';
+    });
+</script>

@@ -1,0 +1,14 @@
+﻿@model TigerTix.Web.Models.Event
+
+<h1>@Model.Sport vs @Model.Opponent</h1>
+
+<p>Date: @Model.Date.ToString("d")</p>
+<p>Location: @Model.Location</p>
+
+<button id="homeButton">Go Home</button>
+
+<script>
+    document.getElementById('homeButton').addEventListener('click', function () {
+        window.location.href = '/'; 
+    });
+</script>

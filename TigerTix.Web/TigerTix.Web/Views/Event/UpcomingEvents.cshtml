@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TigerTix.Web.Models.Event>
+
+<h1>Upcoming Events</h1>
+
+
+@using (Html.BeginForm("UpcomingEvents", "Event", FormMethod.Get))
+{
+    <select name="sport">
+        <option value="">All Sports</option>
+        <option value="Football">Football</option>
+        <option value="Baseball">Baseball</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Soccer">Soccer</option>
+        <option value="Gymnastics">Gymnastics</option>
+    </select>
+
+    <input type="submit" value="Filter" />
+}
+
+
+<button id="homeButton">Go Home</button>
+
+<script>
+    document.getElementById('homeButton').addEventListener('click', function () {
+        window.location.href = '/'; // This assumes your home page is at the root URL
+    });
+</script>
+
+
+@foreach (var eventItem in Model)
+{
+    <h2>@eventItem.Sport vs @eventItem.Opponent</h2>
+
+    <p>Date: @eventItem.Date.ToString("d") </p>
+    <p>Location: @eventItem.Location</p>
+
+    <form asp-action="AddToCart" asp-controller="Cart" method="post">
+        <input type="hidden" name="sport" value="@eventItem.Sport" />
+        <input type="hidden" name="opponent" value="@eventItem.Opponent" />
+        <input type="hidden" name="date" value="@eventItem.Date" />
+        <input type="hidden" name="location" value="@eventItem.Location" />
+        <input type="submit" value="Add to Cart" />
+    </form>
+}
+
+

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Event</title>
+</head>
+<body>
+    @model TigerTix.Web.Models.Event
+
+    <h1>Create Event</h1>
+
+    <form asp-controller="Event" asp-action="Create" method="post">
+        <div>
+            <label for="Sport">Sport:</label>
+            <select id="Sport" name="Sport">
+                <option value="">Select a sport</option>
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Baseball">Baseball</option>
+                <option value="Soccer">Soccer</option>
+                <option value="Gymnastics">Gymnastics</option>
+            </select>
+        </div>
+        <div>
+            <label for="Opponent">Opponent:</label>
+            <input type="text" id="Opponent" name="Opponent" autocomplete="off" />
+        </div>
+        <div>
+            <label for="Date">Date:</label>
+            <input type="date" id="Date" name="Date" autocomplete="off" />
+        </div>
+        <div>
+            <label for="Location">Location:</label>
+            <select id="Location" name="Location">
+                <option value="">Select a location</option>
+                <option value="Home">Home</option>
+                <option value="Away">Away</option>
+                <option value="TBD">TBD</option>
+            </select>
+        </div>
+
+        <button type="submit">Create</button>
+    </form>
+</body>
+</html>
+
+<button id="homeButton">Go Home</button>
+
+<script>
+    document.getElementById('homeButton').addEventListener('click', function () {
+        window.location.href = '/';
+    });
+</script>
+

@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TigerTix.Web
+build_property.RootNamespace = TigerTix.Web
+build_property.ProjectDir = /Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/App/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0ZBUS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/App/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/App/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Cart/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9WaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Event/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Event/Event.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvRXZlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Event/UpcomingEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvVXBjb21pbmdFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/Payment/AddMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudC9BZGRNZXRob2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seangilbert/Documents/GitHub/TigerTix.Web/TigerTix.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

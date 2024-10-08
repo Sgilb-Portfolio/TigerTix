@@ -1,0 +1,32 @@
+﻿<body>
+
+    <h1>Shopping Cart</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sport</th>
+                <th>Opponent</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Sport</td>
+                    <td>@item.Opponent</td>
+                    <td>@item.Date.ToShortDateString()</td>
+                    <td>@item.Location</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="#">Proceed to Checkout (Soon)</a>
+    <br />
+    <a href="/Event/UpcomingEvents" class="btn btn-default">Back to Events List</a>
+    <br />
+    <a href="/" class="btn btn-default">Back to Home</a>
+</body>
